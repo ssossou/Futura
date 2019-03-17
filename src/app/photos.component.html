@@ -1,0 +1,8 @@
+<table>
+  <tr *ngFor="let photo of Photos">
+    <td>{{ photo.albumid }}</td>
+    <td>{{ photo.id }}</td>
+    <td>{{ photo.title }}</td>
+    <td><img src="{{ photo.thumbnailUrl }}" /></td>
+  </tr>
+</table>
